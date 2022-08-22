@@ -16,15 +16,23 @@ class Expenses: ObservableObject {
         }
     }
     
+    // Project 7 - Challange 3
+    var personaItems: [ExpenseItem] {
+        items.filter { $0.type == "Personal" }
+    }
+    var businessItems: [ExpenseItem] {
+        items.filter { $0.type == "Business" }
+    }
+
     init() {
         if let savedItems = UserDefaults.standard.data(forKey: "Items") {
             if let decodedItems = try? JSONDecoder().decode([ExpenseItem].self, from: savedItems) {
                 items = decodedItems
-                
                 return
             }
         }
-        
+
         items = []
     }
 }
+

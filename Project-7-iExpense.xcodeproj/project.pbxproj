@@ -15,6 +15,8 @@
 		81BEF9EB28AD28A500337EB5 /* Expenses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81BEF9EA28AD28A500337EB5 /* Expenses.swift */; };
 		81BEF9ED28AD2DE400337EB5 /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81BEF9EC28AD2DE400337EB5 /* AddView.swift */; };
 		81BEF9EF28AEC88A00337EB5 /* FormatStyle-LocalCurrency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81BEF9EE28AEC88900337EB5 /* FormatStyle-LocalCurrency.swift */; };
+		81E3E34728B3E21900163F38 /* View-ExpenseStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E3E34628B3E21900163F38 /* View-ExpenseStyle.swift */; };
+		81E3E34928B4382A00163F38 /* ExpenseSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E3E34828B4382A00163F38 /* ExpenseSection.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +29,8 @@
 		81BEF9EA28AD28A500337EB5 /* Expenses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expenses.swift; sourceTree = "<group>"; };
 		81BEF9EC28AD2DE400337EB5 /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
 		81BEF9EE28AEC88900337EB5 /* FormatStyle-LocalCurrency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FormatStyle-LocalCurrency.swift"; sourceTree = "<group>"; };
+		81E3E34628B3E21900163F38 /* View-ExpenseStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View-ExpenseStyle.swift"; sourceTree = "<group>"; };
+		81E3E34828B4382A00163F38 /* ExpenseSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseSection.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,7 +47,6 @@
 		811E052828ACEE3D00940EC0 = {
 			isa = PBXGroup;
 			children = (
-				81BEF9EE28AEC88900337EB5 /* FormatStyle-LocalCurrency.swift */,
 				811E053328ACEE3E00940EC0 /* Project-7-iExpense */,
 				811E053228ACEE3E00940EC0 /* Products */,
 			);
@@ -63,8 +66,11 @@
 				811E053428ACEE3E00940EC0 /* Project_7_iExpenseApp.swift */,
 				81BEF9EC28AD2DE400337EB5 /* AddView.swift */,
 				811E053628ACEE3E00940EC0 /* ContentView.swift */,
+				81E3E34828B4382A00163F38 /* ExpenseSection.swift */,
+				81E3E34628B3E21900163F38 /* View-ExpenseStyle.swift */,
 				81BEF9E828AD267000337EB5 /* ExpenseItem.swift */,
 				81BEF9EA28AD28A500337EB5 /* Expenses.swift */,
+				81BEF9EE28AEC88900337EB5 /* FormatStyle-LocalCurrency.swift */,
 				811E053828ACEE4B00940EC0 /* Assets.xcassets */,
 				811E053A28ACEE4B00940EC0 /* Preview Content */,
 			);
@@ -152,6 +158,8 @@
 				81BEF9EB28AD28A500337EB5 /* Expenses.swift in Sources */,
 				811E053728ACEE3E00940EC0 /* ContentView.swift in Sources */,
 				81BEF9ED28AD2DE400337EB5 /* AddView.swift in Sources */,
+				81E3E34728B3E21900163F38 /* View-ExpenseStyle.swift in Sources */,
+				81E3E34928B4382A00163F38 /* ExpenseSection.swift in Sources */,
 				81BEF9EF28AEC88A00337EB5 /* FormatStyle-LocalCurrency.swift in Sources */,
 				81BEF9E928AD267100337EB5 /* ExpenseItem.swift in Sources */,
 				811E053528ACEE3E00940EC0 /* Project_7_iExpenseApp.swift in Sources */,

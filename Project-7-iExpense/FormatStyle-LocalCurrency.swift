@@ -7,6 +7,7 @@
 
 import Foundation
 
+// Project 7 - Challange 1
 extension FormatStyle where Self == FloatingPointFormatStyle<Double>.Currency {
     static var localCurrency: Self {
         .currency(code: Locale.current.currencyCode ?? "USD" )
